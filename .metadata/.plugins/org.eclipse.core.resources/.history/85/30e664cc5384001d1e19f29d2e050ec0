@@ -1,0 +1,12 @@
+
+public class Application {
+	public static void main(String[] args) {
+		
+		int myInt = 20;
+
+		if (myInt < 30) {
+			System.out.println("Yes, It's true!");
+		}
+
+	}
+}
