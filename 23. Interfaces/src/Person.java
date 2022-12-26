@@ -14,6 +14,5 @@ public class Person implements Info{
 	@Override
 	public void showInfo() {
 		System.out.println("Person name is: " + name);
-		
 	}
 }
