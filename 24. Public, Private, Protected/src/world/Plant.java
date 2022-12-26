@@ -1,4 +1,10 @@
 package world;
+
+// This only is visible only in a file.
+class Something {
+	
+}
+
 public class Plant {
 	// Bad practice
 	public String name;

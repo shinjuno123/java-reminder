@@ -1,5 +1,13 @@
 import world.Plant;
 
+/*
+ * private -- only within same class
+ * public -- from anywhere.
+ * protected -- same class, subclass or same package
+ * no modifier -- same package only
+ */
+
+
 public class Application {
 
 	public static void main(String[] args) {
