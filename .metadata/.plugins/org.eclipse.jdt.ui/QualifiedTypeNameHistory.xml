@@ -4,4 +4,8 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.management.Descriptor"/>
+    <fullyQualifiedTypeName name="Ocean.Fish"/>
+    <fullyQualifiedTypeName name="Ocean.Seaweed"/>
+    <fullyQualifiedTypeName name="world.Plant"/>
 </qualifiedTypeNameHistroy>
