@@ -27,4 +27,12 @@
 |22|Packages|https://github.com/shinjuno123/java-reminder/tree/master/22.%20Packages|
 |23|Interfaces|https://github.com/shinjuno123/java-reminder/tree/master/23.%20Interfaces|
 |24|Public, Private, Protected|https://github.com/shinjuno123/java-reminder/tree/master/24.%20Public%2C%20Private%2C%20Protected|
-|25|Variables|https://github.com/shinjuno123/java-reminder/tree/master/1.%20Variables|
+|25|Polymorphism|https://github.com/shinjuno123/java-reminder/tree/master/25.%20Polymorphism|
+|26|Encapsulation and API Docs|https://github.com/shinjuno123/java-reminder/tree/master/26.%20Encapsulation%20and%20API%20Docs|
+|27|Casting Numerical Values|https://github.com/shinjuno123/java-reminder/tree/master/27.%20Casting%20Numerical%20Values|
+|28|Upcasting and Downcasting|https://github.com/shinjuno123/java-reminder/tree/master/28.%20Upcasting%20and%20Downcasting|
+|29|Generics|https://github.com/shinjuno123/java-reminder/tree/master/29.%20Generics|
+|30|Generics and Wildscards|https://github.com/shinjuno123/java-reminder/tree/master/30.%20Generics%20and%20Wildscards|
+
+
+
