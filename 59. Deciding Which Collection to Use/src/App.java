@@ -1,6 +1,8 @@
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -44,12 +46,15 @@ public class App {
 		// Very fast to check if a particular object exists
 		// If you want to use your own objects, you must implement hashCode() and equals()
 		
-		// Order is unimportant and OK if it changes?
+		// Order is unimportant and OK if it changes? 
 		// HashSEt is not ordered
 		Set<String> set1 = new HashSet<String>();
 		
-		// Sorted in natural order? Use TreeSet
+		// Sorted in natural order? Use TreeSet - must implement Comparable for custom types
 		Set<String> set2 = new TreeSet<String>();
+		BigInteger a = new BigInteger("5");
+		String b = a.remainder(BigInteger.valueOf(2)).toString();
+		System.out.println(b);
 		
 		// Elements remain in order they were added
 		Set<String> set3 = new LinkedHashSet<String>();
@@ -61,15 +66,21 @@ public class App {
 		// key value pairs
 		// Like lookup tables
 		// Retrieving a value by key is fast
-		// Iterating over maps is slow
+		// Iterating over maps is very slow
+		// Maps are not optimized for iteration!
+		// If you have to iterate maps, iterate through keys!
 		// If you want to use your own objects as keys, you must implement hashCode() and equals()
 		
 		// Keys not in any particular order, and order liable to change.
 		Map<String, String> map1 = new HashMap<String,String>();
 		
-		// Keys sorted in natural order 
+		// Keys sorted in natural order - must implement Comparable for custom types
 		Map<String,String> map2 = new TreeMap<String,String>();
 		
+		// Keys remain in order added 
+		Map<String,String> map3 = new LinkedHashMap<String,String>();
+		
+		// There are also the SortedSet and SortedMap interfaces.
 	
 	}
 
